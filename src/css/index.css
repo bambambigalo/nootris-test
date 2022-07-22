@@ -1,0 +1,234 @@
+p,
+h1,
+h2,
+a {
+  font-family: 'Rubik';
+}
+
+.wraper {
+  min-width: 1360px;
+  margin: 0 auto;
+}
+.content {
+  position: relative;
+  max-width: 1321px;
+  margin: 0 auto;
+  z-index: 1;
+}
+.box_background {
+  z-index: 1;
+  position: relative;
+}
+/* header ====================================== */
+header {
+  padding: 1.4% 0 1.4% 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #111111;
+}
+.nav_menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  width: 54%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_link,
+.number {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.basket {
+  position: relative;
+  cursor: pointer;
+}
+.check_basket {
+  position: absolute;
+  top: 60%;
+  right: -30%;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 23px;
+  background-color: #fcb500;
+}
+/* main_box======================================= */
+.main_box {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* top_block ===================================== */
+
+.top_block {
+  background-color: #fcda28;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top_block_content {
+  z-index: 10;
+}
+/* background img +++++ */
+.back_top {
+  z-index: 1;
+  position: absolute;
+  right: -54px;
+  top: -84px;
+}
+/*++++++++++++++++++++  */
+.title_top_block {
+  margin-top: 7.32%;
+  font-family: 'Rubik-Bold';
+  font-size: 144px;
+  line-height: 152px;
+  color: #fff;
+}
+.first_description {
+  margin-top: 1.9%;
+  width: 50%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+.second_description {
+  margin-top: 9.15%;
+  width: 50%;
+  font-family: 'Rubik-Bold';
+  font-size: 36px;
+  line-height: 43px;
+}
+.second_description_context {
+  margin-top: 1.2%;
+  margin-bottom: 6.5%;
+  width: 26%;
+  font-family: 'Rubik';
+  font-size: 18px;
+  line-height: 21px;
+}
+/* bottom_block ================================== */
+.bottom_block {
+  background-color: #111111;
+}
+.bottom_block_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom_title,
+.second_prise,
+.description_card,
+.description_card_midle {
+  color: #fff;
+}
+.bottom_title {
+  margin-top: 8.5%;
+  text-align: center;
+  width: 65%;
+  font-size: 48px;
+  line-height: 57px;
+  font-family: 'Rubik-Bold';
+  color: #fff;
+}
+.bottom_title_span {
+  color: #fcb500;
+}
+.prises {
+  margin-top: 6.44%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.first_prise {
+  text-decoration: line-through;
+  color: #adadad;
+  font-size: 36px;
+  line-height: 43px;
+}
+.second_prise {
+  margin-left: 3%;
+  font-size: 48px;
+  line-height: 57px;
+}
+.cards {
+  width: 100%;
+  margin-top: 4.47%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description_card {
+  margin-top: 40.6%;
+  width: 70%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+}
+.description_card_span {
+  color: #fcb500;
+}
+.midle_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description_card_midle {
+  margin-top: 7.16%;
+  width: 70%;
+  text-align: center;
+  font-size: 36px;
+  line-height: 43px;
+}
+.description_card_midle_span {
+  font-size: 24px;
+  line-height: 28px;
+  color: #fcb500;
+}
+.button_box {
+  margin-top: 5%;
+  margin-bottom: 9%;
+}
+.checkout_btn {
+  width: 256px;
+  height: 56px;
+  background-color: #fcb500;
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  font-family: 'Rubik';
+  line-height: 21px;
+  cursor: pointer;
+}
+.checkout_btn:active {
+  background-color: #fcc026;
+}
+/* fonts========================================== */
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik/Rubik-Regular.ttf');
+}
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: url('../fonts/Rubik/Rubik-Bold.ttf');
+}
